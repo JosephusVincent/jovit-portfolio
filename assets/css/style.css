@@ -1,0 +1,250 @@
+/* CSS Variables */
+:root {
+	--custom-color: #1f3438;
+}
+
+*{
+	/*background-color: red; */
+	margin: 0px auto;
+	padding: 0px;
+	font-family: 'Titillium Web', sans-serif;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+#main-section{
+	/*background-color: grey;*/
+	background: url(../img/photo1.jpeg) 50% 50% no-repeat;
+	background-size: cover;
+	width: auto;
+}
+
+
+/* Main Section*/
+#wrapper {
+	width: 100vw;
+}
+
+#wrapper #main-section .demo-con{
+	width: auto;
+	height: auto;
+}
+
+
+#wrapper #main-section .demo-con .demo-con, 
+#wrapper #main-section .demo-con .demo-land {
+	height: auto;
+	padding: 5rem 1rem;
+}
+
+#wrapper #main-section .demo-con .demo-row .img-col img{
+	border-radius: 50%;
+}
+
+
+/* Vertically Center DIV */
+/* for main-section */
+#main-section {
+	display: table;
+  	position: relative;
+}
+
+#main-section .demo-con {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#wrapper #main-section .demo-con .demo-row .demo-land h1,
+#wrapper #main-section .demo-con .demo-row .demo-land h2 {
+	color: white;
+}
+
+#wrapper #main-section .demo-con .demo-row .demo-land h1 {
+	font-size: 6rem;
+}
+
+
+
+/* Portfolio / My Works Section */
+#wrapper #portfolio-section .port-con .port-row .port-col-title .title-port {
+	color: #fffafa;
+	padding: 1.8rem;
+	font-size: 2rem;
+	text-transform: capitalize;
+}
+
+#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line { 
+	color: #fffafa;
+	text-indent: 3rem;
+	text-align: justify;
+	font-size: .8rem;
+}
+
+
+/* Skill Section */
+#wrapper .skill-con .skill-row .skill-col .title-skill {
+	color: black;
+	text-transform: capitalize;
+	padding: 2rem;
+	font-size: 2rem;
+}
+
+#wrapper .skill-con .skill-row .skill-col .skill-line {
+	color: black;
+	text-indent: 3rem;
+	text-align: justify;
+	font-size: .8rem;
+}
+
+
+/* About Section */
+#wrapper #about-section .about-con .about-row .about-col .title-about {
+	text-transform: capitalize;
+	padding: 2rem;
+	font-size: 2rem;
+	color: #fffafa;
+}
+
+
+#portfolio-section{
+	background-color: #2c2a2a;
+}
+
+#skills-section{
+	background-color: #e0eae8;
+}
+
+#about-section{
+	background-color: #2c2a2a;
+}
+
+#main-section,
+#portfolio-section,
+#skills-section,
+#about-section{ 
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+
+
+
+#main-footer {
+	background-color: var(--custom-color);
+	color: lightgrey;
+	padding: 25px 0;
+	text-align: center;
+}
+
+
+
+
+
+/*Desktop*/
+@media only screen and (min-width: 961px) {
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 767px) and (max-width: 960px) {
+	
+}
+
+
+/* Custom overdrive */
+@media only screen and (min-width: 401px) and (max-width: 766px) {
+	
+	#wrapper #main-section .demo-con .demo-row .demo-land h1,
+	#wrapper #main-section .demo-con .demo-row .demo-land h2 {
+		color: white;
+		text-align: center!important;
+	}
+
+	#wrapper #main-section .demo-con .demo-row .demo-land h1 {
+		font-size: 4rem;
+	}
+
+}
+
+
+/*Mobile*/
+@media only screen and (max-width: 400px) {
+	#wrapper #main-section .demo-con .demo-row .demo-land h1,
+	#wrapper #main-section .demo-con .demo-row .demo-land h2 {
+		color: white;
+		text-align: center!important;
+	}
+
+	#wrapper #main-section .demo-con .demo-row .demo-land h1 {
+		font-size: 3rem;
+	}
+	
+	#wrapper #main-section .demo-con .demo-row .demo-land h2 {
+		font-size: 1.5rem;
+	}
+
+	#wrapper #main-section .demo-con .demo-row .img-col img{
+		border-radius: 50%;
+		width: 12rem;
+		margin-top: 2rem;
+	}
+
+	#wrapper #main-section .demo-con .demo-con, 
+	#wrapper #main-section .demo-con .demo-land {
+		height: auto;
+		padding: 2rem 1rem;
+	}
+
+	/* Portfolio / My Works Section */
+	#wrapper #portfolio-section .port-con .port-row .port-col-title .title-port {
+		color: #fffafa;
+		padding: 1rem;
+		font-size: 1.5rem;
+	}
+
+	#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line{ 
+		color: black
+		font-size: .8rem;
+		text-indent: 1rem;
+	}
+
+	/* Skill Section */
+	#wrapper .skill-con .skill-row .skill-col .title-skill {
+		color: #2c2a2a;
+		text-transform: capitalize;
+		padding: 1rem;
+		font-size: 1.5rem;
+	}
+
+	#wrapper .skill-con .skill-row .skill-col .skill-line {
+		color: #2c2a2a;
+		font-size: .8rem;
+		text-indent: 1rem;
+	}
+
+	/* About Section */
+	#wrapper #about-section .about-con .about-row .about-col .title-about {
+		text-transform: capitalize;
+		padding: 1rem;
+		font-size: 1.5rem;
+	}
+	
+
+	/* Footer */
+	#main-footer {
+		font-size: 12px;
+		padding: 15px 0;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
