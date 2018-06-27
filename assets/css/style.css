@@ -194,9 +194,16 @@
 	padding-top: .8rem;
 }
 
+.soc-links {
+	height: 100%;
+}
+
 .fab {
 	font-size: 2rem;
+	overflow: visible;
+	padding: 0rem .7rem;
 }
+
 
 
 
