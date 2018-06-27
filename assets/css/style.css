@@ -48,7 +48,6 @@
 	display: table;
   	position: relative;
 }
-
 #main-section .demo-con {
 	display: table-cell;
 	vertical-align: middle;
@@ -80,6 +79,15 @@
 	font-size: .8rem;
 }
 
+#wrapper #portfolio-section .port-con .caps-row .caps-col {
+	padding: 2rem 0rem;
+}
+
+#wrapper #portfolio-section .port-con .caps-row .caps-col img { 
+	width: 70%!important;	
+}
+
+
 
 /* Skill Section */
 #wrapper .skill-con .skill-row .skill-col .title-skill {
@@ -96,9 +104,36 @@
 	font-size: .8rem;
 }
 
+#wrapper .skill-con .skill-row .skill-col .skill-line {
+
+}
+
+
+#wrapper .skill-con .progress-row {
+	padding: 2rem 0rem;
+}
+
+#wrapper .skill-con .progress-row .progress {
+	height: 1.5rem;
+	margin: 1rem 0rem;
+}
+
+#wrapper .skill-con .progress-row p {
+	margin-bottom: .2rem;
+}
+
+#wrapper .skill-con .progress-row .title-lang {
+	font-size: 1.2rem;
+	padding-bottom: 1rem;	
+}
+
 
 /* About Section */
-#wrapper #about-section .about-con .about-row .about-col .title-about {
+#wrapper #about-section .about-con {
+	padding: 0rem 5rem;
+}
+
+#wrapper #about-section .about-con .about-one-row .about-one-col .title-about {
 	text-transform: capitalize;
 	padding: 2rem;
 	font-size: 2rem;
@@ -106,8 +141,87 @@
 }
 
 
+#wrapper #about-section .about-con .about-one-row .about-one-col img {
+	border-radius: 50%;
+	width: 10rem;
+}
+
+
+#wrapper #about-section .about-con .about-one-row .about-one-col .myinfo {
+	padding: 2rem 0rem;
+}
+
+#wrapper #about-section .about-con .about-one-row .about-one-col .myinfo p {
+	color: #d9d6d6;
+	font-size: .8rem;
+	margin-bottom: .5rem;
+	text-align: center;
+}
+
+#wrapper #about-section .about-con .about-two-col .nav-tabs .nav-link.active {
+	color: #2c2a2a;
+}
+
+#wrapper #about-section .about-con .about-two-col .nav-tabs .nav-link {
+	color: #fffafa;
+}
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane {
+	padding: 2rem .5rem;
+}
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane h4 {
+	color: #d9d6d6;
+	padding-bottom: .5rem;
+	text-transform: capitalize;
+}
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .edu-col h6 {
+	color: #d9d6d6;
+	padding-top: 1rem;
+}
+
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane p {
+	color: #d9d6d6;
+	margin-bottom: .5rem;
+	font-size: .8rem;
+	text-indent: 2rem;
+}
+
+#wrapper #about-section .about-con .about-two-col .tab-content #contact h6  {
+	color: #d9d6d6;
+	padding-top: .8rem;
+}
+
+.fab {
+	font-size: 2rem;
+}
+
+
+
+
+
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .tra-col p {
+	margin-bottom: .3rem;
+}
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .tra-col .tra-date {
+	font-size: .75rem;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1)!important;
+}
+
 #portfolio-section{
 	background-color: #2c2a2a;
+/*	min-height: 100vh auto;
+	height: auto!important;*/
 }
 
 #skills-section{
@@ -122,7 +236,8 @@
 #portfolio-section,
 #skills-section,
 #about-section{ 
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 	width: 100vw;
 	overflow-x: hidden;
 }
@@ -138,8 +253,6 @@
 
 
 
-
-
 /*Desktop*/
 @media only screen and (min-width: 961px) {
 
@@ -147,7 +260,32 @@
 
 /* Tablet */
 @media only screen and (min-width: 767px) and (max-width: 960px) {
+		
+	#main-section,
+	#portfolio-section,
+	#skills-section,
+	#about-section{ 
+		min-height: 70vh;
+		height: auto;
+		width: 100vw;
+		overflow-x: hidden;
+	}
+
+	#wrapper .skill-con .skill-row .skill-col .skill-line {
+		color: black;
+		text-indent: 3rem;
+		text-align: justify;
+		font-size: 1rem;
+	}
+
+	#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line { 
+		font-size: 1rem;
+	}
+
 	
+
+
+
 }
 
 
@@ -227,6 +365,10 @@
 		text-transform: capitalize;
 		padding: 1rem;
 		font-size: 1.5rem;
+	}
+
+	#wrapper #about-section .about-con {
+		padding: 0rem 1rem!important;
 	}
 	
 
