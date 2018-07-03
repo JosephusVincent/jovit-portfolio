@@ -19,17 +19,12 @@
 	width: auto;
 }
 
-
 /* Main Section*/
-#wrapper {
-	width: 100vw;
-}
 
 #wrapper #main-section .demo-con{
 	width: auto;
 	height: auto;
 }
-
 
 #wrapper #main-section .demo-con .demo-con, 
 #wrapper #main-section .demo-con .demo-land {
@@ -63,7 +58,6 @@
 }
 
 
-
 /* Portfolio / My Works Section */
 #wrapper #portfolio-section .port-con .port-row .port-col-title .title-port {
 	color: #fffafa;
@@ -86,8 +80,6 @@
 #wrapper #portfolio-section .port-con .caps-row .caps-col img { 
 	width: 70%!important;	
 }
-
-
 
 /* Skill Section */
 #wrapper .skill-con .skill-row .skill-col .title-skill {
@@ -140,7 +132,6 @@
 	color: #fffafa;
 }
 
-
 #wrapper #about-section .about-con .about-one-row .about-one-col img {
 	border-radius: 50%;
 	width: 10rem;
@@ -171,7 +162,7 @@
 }
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane h4 {
-	color: #d9d6d6;
+	color: #84d1e1;
 	padding-bottom: .5rem;
 	text-transform: capitalize;
 }
@@ -180,7 +171,6 @@
 	color: #d9d6d6;
 	padding-top: 1rem;
 }
-
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane p {
 	color: #d9d6d6;
@@ -203,10 +193,6 @@
 	overflow: visible;
 	padding: 0rem .7rem;
 }
-
-
-
-
 
 
 
@@ -272,7 +258,7 @@ hr {
 	#portfolio-section,
 	#skills-section,
 	#about-section{ 
-		min-height: 70vh;
+		min-height: 100vh;
 		height: auto;
 		width: 100vw;
 		overflow-x: hidden;
@@ -285,16 +271,26 @@ hr {
 		font-size: 1rem;
 	}
 
+	/* Portfolio Section */
 	#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line { 
 		font-size: 1rem;
 	}
 
-	
+	#wrapper #portfolio-section .port-con .caps-row .caps-col img { 
+		width: 100%!important;	
+	}
 
+	/* About Section */
+	#wrapper #about-section .about-con {
+		padding: 0rem 1rem;
+	}
 
+	#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane p {
+		font-size: .7rem;
+		text-indent: 0rem;
+	}
 
 }
-
 
 /* Custom overdrive */
 @media only screen and (min-width: 401px) and (max-width: 766px) {
@@ -310,7 +306,6 @@ hr {
 	}
 
 }
-
 
 /*Mobile*/
 @media only screen and (max-width: 400px) {
@@ -368,16 +363,30 @@ hr {
 	}
 
 	/* About Section */
+	#wrapper #about-section .about-con {
+		padding: 0rem 1rem!important;
+	}
+
 	#wrapper #about-section .about-con .about-row .about-col .title-about {
 		text-transform: capitalize;
 		padding: 1rem;
 		font-size: 1.5rem;
 	}
 
-	#wrapper #about-section .about-con {
-		padding: 0rem 1rem!important;
+	#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane p {
+		text-indent: 0rem;
 	}
-	
+		
+	#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .edu-col h6 {
+		color: #d9d6d6;
+		padding: 1rem 0rem;
+		font-family: cursive;
+	}
+
+	#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane h4 {
+		padding: 1rem 0rem;
+	}
+		
 
 	/* Footer */
 	#main-footer {
