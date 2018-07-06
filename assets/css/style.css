@@ -57,7 +57,6 @@
 	font-size: 6rem;
 }
 
-
 /* Portfolio / My Works Section */
 #wrapper #portfolio-section .port-con .port-row .port-col-title .title-port {
 	color: #fffafa;
@@ -251,8 +250,6 @@ hr {
 	overflow-x: hidden;
 }
 
-
-
 #main-footer {
 	background-color: var(--custom-color);
 	color: lightgrey;
@@ -260,8 +257,7 @@ hr {
 	text-align: center;
 }
 
-
-
+/* Media Queries */
 /*Desktop*/
 @media only screen and (min-width: 961px) {
 
@@ -276,6 +272,10 @@ hr {
 	
 	#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line { 
 		font-size: 1rem;
+	}
+	
+	#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel { 
+		width: 100%;
 	}
 
 	#wrapper #portfolio-section .port-con .caps-row .caps-col img { 
@@ -396,7 +396,14 @@ hr {
 	#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane h4 {
 		padding: 1rem 0rem;
 	}
-		
+
+	#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel { 
+		width: 90%;
+	}
+
+	#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel ol {
+		margin-bottom: 0;
+	}
 
 	/* Footer */
 	#main-footer {
@@ -406,13 +413,6 @@ hr {
 
 
 }
-
-
-
-
-
-
-
 
 
 
