@@ -77,9 +77,26 @@
 	padding: 2rem 0rem;
 }
 
-#wrapper #portfolio-section .port-con .caps-row .caps-col img { 
-	width: 70%!important;	
+#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel { 
+	width: 70%;
 }
+
+#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel img { 
+	width: 100%!important;	
+}
+
+#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel p { 
+	font-size: .8rem;
+	background: rgba(73, 73, 73, 0.5);
+	border-radius: 5px;
+}
+
+#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel .carousel-control-next,
+#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel .carousel-control-prev {
+	opacity: 1;
+}
+
+
 
 /* Skill Section */
 #wrapper .skill-con .skill-row .skill-col .title-skill {
@@ -118,7 +135,6 @@
 	font-size: 1.2rem;
 	padding-bottom: 1rem;	
 }
-
 
 /* About Section */
 #wrapper #about-section .about-con {
@@ -253,31 +269,25 @@ hr {
 
 /* Tablet */
 @media only screen and (min-width: 767px) and (max-width: 960px) {
-		
-	#main-section,
-	#portfolio-section,
-	#skills-section,
-	#about-section{ 
-		min-height: 100vh;
-		height: auto;
-		width: 100vw;
-		overflow-x: hidden;
-	}
-
-	#wrapper .skill-con .skill-row .skill-col .skill-line {
-		color: black;
-		text-indent: 3rem;
-		text-align: justify;
-		font-size: 1rem;
-	}
-
 	/* Portfolio Section */
+	#wrapper #portfolio-section .port-con .caps-row .caps-col{ 
+		padding: 10rem 0rem;
+	}
+	
 	#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line { 
 		font-size: 1rem;
 	}
 
 	#wrapper #portfolio-section .port-con .caps-row .caps-col img { 
 		width: 100%!important;	
+	}
+
+	/* Skill Section */
+	#wrapper #skill-section .skill-con .skill-row .skill-col .skill-line {
+		color: black;
+		text-indent: 3rem;
+		text-align: justify;
+		font-size: 1rem;
 	}
 
 	/* About Section */
