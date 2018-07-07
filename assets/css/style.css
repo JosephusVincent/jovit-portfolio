@@ -386,10 +386,16 @@ hr {
 		font-size: 1.5rem;
 	}
 
-	#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line{ 
-		color: black
+	#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line { 
+		padding: 0rem 1rem;
 		font-size: .8rem;
 		text-indent: 1rem;
+	}
+
+	#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel-indicators li {
+	    width: 6px;
+	    height: 5px;
+	    border-radius: 100%;
 	}
 
 	/* Skill Section */
@@ -432,7 +438,7 @@ hr {
 	}
 
 	#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel { 
-		width: 90%;
+		width: 100%;
 	}
 
 	#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel ol {
@@ -442,7 +448,7 @@ hr {
 	/* Footer */
 	#main-footer {
 		font-size: 12px;
-		padding: 15px 0;
+		padding: 15px 5px;
 	}
 	
 	/* Back to Top Button */
