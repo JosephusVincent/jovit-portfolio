@@ -260,13 +260,12 @@ hr {
 	overflow-x: hidden;
 }
 
-#main-footer {
+#wrapper #main-footer {
 	background-color: var(--custom-color);
 	color: lightgrey;
 	padding: 25px 0;
 	text-align: center;
 }
-
 
 /* Back to Top Button */
 #myBtn {
@@ -332,6 +331,12 @@ hr {
 	#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane p {
 		font-size: .7rem;
 		text-indent: 0rem;
+	}
+
+	/* Footer */
+	#wrapper #main-footer {
+		/*font-size: 12px;*/
+		padding: 15px 5px;
 	}
 
 }
@@ -446,7 +451,7 @@ hr {
 	}
 
 	/* Footer */
-	#main-footer {
+	#wrapper #main-footer {
 		font-size: 12px;
 		padding: 15px 5px;
 	}
