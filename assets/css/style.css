@@ -305,6 +305,7 @@ hr {
 	
 	#wrapper #portfolio-section .port-con .port-row .port-col-title .port-line { 
 		font-size: 1rem;
+		padding: 0rem 1rem;
 	}
 	
 	#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel { 
