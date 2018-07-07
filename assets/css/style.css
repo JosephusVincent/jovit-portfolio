@@ -342,9 +342,9 @@ hr {
 
 }
 
-/* Custom overdrive */
+/* Custom overdrive - Aligning MainSection Only */
 @media only screen and (min-width: 401px) and (max-width: 766px) {
-	
+	/* Main Section */
 	#wrapper #main-section .demo-con .demo-row .demo-land h1,
 	#wrapper #main-section .demo-con .demo-row .demo-land h2 {
 		color: white;
@@ -354,7 +354,6 @@ hr {
 	#wrapper #main-section .demo-con .demo-row .demo-land h1 {
 		font-size: 4rem;
 	}
-
 }
 
 /*Mobile*/
@@ -386,6 +385,10 @@ hr {
 	}
 
 	/* Portfolio / My Works Section */
+	#wrapper #portfolio-section .port-con {
+		min-height: 54vh;
+	}
+
 	#wrapper #portfolio-section .port-con .port-row .port-col-title .title-port {
 		color: #fffafa;
 		padding: 1rem;
