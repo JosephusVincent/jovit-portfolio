@@ -162,7 +162,6 @@
 	width: 10rem;
 }
 
-
 #wrapper #about-section .about-con .about-one-row .about-one-col .myinfo {
 	padding: 2rem 0rem;
 }
@@ -194,8 +193,29 @@
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .edu-col h6 {
 	color: #d9d6d6;
-	padding-top: 1rem;
+	padding-top: 0rem;
+	overflow-x: initial;
+	font-family: cursive;
 }
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .edu-col h4[class="w-exp"] {
+	padding: .5rem 0rem!important;
+	margin: 0;
+}
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .edu-col .point-hov {
+	padding: .5rem 0rem;
+}
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .point-hov:hover {
+	background-color: rgba(0, 0, 0, .2);
+	cursor: default;
+	height: inherit;
+}
+
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .edu-col .w-exp p:first-child {
+	font-weight: bold;
+} 
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane p {
 	color: #d9d6d6;
@@ -219,7 +239,9 @@
 	padding: 0rem .7rem;
 }
 
-
+#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .tra-col .point-hov {
+	padding: 1rem 0rem;
+}
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .tra-col p {
 	margin-bottom: .3rem;
@@ -230,8 +252,7 @@
 }
 
 hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 0!important;
     border: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.1)!important;
 }
@@ -455,8 +476,13 @@ hr {
 		font-family: cursive;
 	}
 
+	#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane {
+		padding: 1rem .5rem;
+	}
+
 	#wrapper #about-section .about-con .about-two-col .tab-content .tab-pane h4 {
 		padding: 1rem 0rem;
+		margin: 0;
 	}
 
 	#wrapper #portfolio-section .port-con .caps-row .caps-col .carousel { 
