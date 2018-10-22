@@ -288,6 +288,10 @@ hr {
 	text-align: center;
 }
 
+#wrapper #main-footer p:nth-child(2) {
+	margin-bottom: .5rem;
+}
+
 /* Back to Top Button */
 #myBtn {
   display: none;
