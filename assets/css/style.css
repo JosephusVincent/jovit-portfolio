@@ -204,7 +204,7 @@
 }
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .edu-col .point-hov {
-	padding: .5rem 0rem;
+	padding: .3rem 0rem;
 }
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .point-hov:hover {
@@ -215,7 +215,7 @@
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane .tabp-row .edu-col .w-exp p:first-child {
 	font-weight: bold;
-} 
+}
 
 #wrapper #about-section .about-con .about-two-col .tab-content .tab-pane p {
 	color: #d9d6d6;
@@ -252,9 +252,9 @@
 }
 
 hr {
-    margin: 0!important;
-    border: 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.1)!important;
+	margin: 0!important;
+	border: 0;
+	border-top: 1px solid rgba(255, 255, 255, 0.1)!important;
 }
 
 #portfolio-section{
@@ -364,7 +364,6 @@ hr {
 		/*font-size: 12px;*/
 		padding: 15px 5px;
 	}
-
 }
 
 /* Custom overdrive - Aligning MainSection Only */
