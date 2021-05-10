@@ -251,6 +251,11 @@
 	font-size: .75rem;
 }
 
+/*  fix scroll bar nav-tabs */
+#wrapper #about-section .about-con .nav-tabs {
+	overflow: hidden;
+}
+
 hr {
 	margin: 0!important;
 	border: 0;
